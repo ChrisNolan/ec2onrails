@@ -48,6 +48,7 @@ end
   apache2
   aptitude
   bison
+  build-essential
   ca-certificates
   cron
   curl
@@ -57,6 +58,8 @@ end
   irb
   less
   libdbm-ruby
+  libfreeimage-dev
+  libfreeimage3
   libgdbm-ruby
   libmysql-ruby
   libopenssl-ruby
@@ -66,11 +69,13 @@ end
   libyaml-ruby
   libzlib-ruby
   logrotate
+  logwatch
   make
   mailx
   memcached
   mysql-client
   mysql-server
+  mytop
   nano
   openssh-server
   postfix
@@ -110,7 +115,8 @@ end
   "rails -v '~> 2.1.2'",
   "rails -v '~> 2.0.5'",
   "rails -v '~> 1.2.6'",
-  "rake"
+  "rake",
+  'RDiscount', 'rfacebook -v 0.9.6', 'fastercsv', 'image_science', 'RedCloth', 'json', 'gchart', 'mislav-will_paginate'
 ]
 
 @build_root = "/mnt/build"
